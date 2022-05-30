@@ -1,0 +1,40 @@
+h1 {
+    background-color: rgb(6, 74, 74);
+    color:antiquewhite;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2{
+    padding-left: 50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: rgb(173, 62, 22);
+    color:antiquewhite;
+    margin-right: 1100px;
+}
+
+#information {
+    padding-top: 20px;
+     
+}
+
+aside {
+
+    padding-left: 20px;
+}
+
+.history {
+    background-color: grey;
+ margin-right: 1600px; 
+}
+
+li {
+    list-style: none; 
+}
+
+#weather-data {
+    margin-left: 500px;
+    display: none; 
+}
