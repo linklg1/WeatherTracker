@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Dashboard</title>
     
 </head>
 <body>
-   
-    <h1>Weather Dasboard</h1> 
+      
+    <h1> <image 
+        src= "https://files.softicons.com/download/web-icons/vector-stylish-weather-icons-by-bartosz-kaszubowski/png/256x256/sun.rays.cloud.png" 
+        width = "30"/> Weather Dasboard <image src="./assets/images/raincloud.png" width = "30"/> </h1> 
     
-   <section id ="information">
+   <main id ="information">
        
     
    <aside id="search" class="column">
@@ -26,27 +30,66 @@
             <li></li>
           </form>
 </aside>
+<section>
+      <div class="current-city-data">
+        <h2 id="city-name"> </h2>
+        <h3 id="city-cond"> </h3>
+        <h3 id="temp"></h3>
+        <h3 id="high"></h3>
+        <h3 id="humidity"></h3>
+        <h3 id="wind-speed"> </h3>
+        <h3 id="uv-index"></h3>
+      </div>
+      <div>
+        <div id="icon"></div>
+      </div>
+    </section>
 
 <section id="weather-data" class="data">
 <h2>Five Day Forecast</h2>
-
-
-
-
-
-
-
-
-
-
-
-</section>
-
-    
-    
-    
-</section>
-    
+<section class="cards">
+    <div class="card">
+      <div id="day1">
+        <h3 id="date1"></h3>
+        <div id="icon1"></div>
+        <h3 id="temp1"></h3>
+        <h3 id="hum1"></h3>
+      </div>
+    </div>
+    <div class="card">
+      <div id="day2">
+        <h3 id="date2"></h3>
+        <div id="icon2"></div>
+        <h3 id="temp2"></h3>
+        <h3 id="hum2"></h3>
+      </div>
+    </div>
+    <div class="card">
+      <div id="day3">
+        <h3 id="date3"></h3>
+        <div id="icon3"></div>
+        <h3 id="temp3"></h3>
+        <h3 id="hum3"></h3>
+      </div>
+    </div>
+    <div class="card">
+      <div id="day4">
+        <h3 id="date4"></h3>
+        <div id="icon4"></div>
+        <h3 id="temp4"></h3>
+        <h3 id="hum4"></h3>
+      </div>
+    </div>
+    <div class="card">
+      <div id="day5">
+        <h3 id="date5"></h3>
+        <div id="icon5"></div>
+        <h3 id="temp5"></h3>
+        <h3 id="hum5"></h3>
+      </div>
+    </div>
+</section> </section>
+   </main>
     
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
