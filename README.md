@@ -5,6 +5,8 @@ The deployed application shows the weather conditions for the city inputted into
 
 Deployment link:
 
+https://linklg1.github.io/WeatherTracker/
+
 
 Screenshots:
 

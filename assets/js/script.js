@@ -41,7 +41,7 @@ runfiveday = function(event) {
       city = lastSearch;
       search();
     } else {
-      city = "Seattle";
+      city = "Toronto";
       search();
     }
   }
