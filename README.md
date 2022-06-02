@@ -10,3 +10,5 @@ https://linklg1.github.io/WeatherTracker/
 
 Screenshots:
 
+![alt text](assets/images/Screenshot1.png)
+![alt text](assets/images/Screenshot2.png)
